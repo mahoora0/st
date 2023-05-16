@@ -16,6 +16,6 @@ df = pd.DataFrame(
 st.line_chart(df)
 
 rand = np.random.normal(1, 2, size = 20)
-fig, as = plt.subplots()
+fig, ax = plt.subplots()
 ax.hist(rand, bins=15) 
 st.pyplot(fig)
