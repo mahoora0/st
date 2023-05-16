@@ -11,5 +11,5 @@ st.sidebar.radio("Pick your gender", ["Male", "Female"])
 
 df = pd.DataFrame(
   np.random.randn(10,2),
-  colums=['x', 'y'])
+  columns=['x', 'y'])
 st.line_chart(df)
